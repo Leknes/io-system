@@ -1,0 +1,75 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "io-directory-system/1.0.0": {
+        "dependencies": {
+          "Senkel.IO.Core.Paths": "2.0.1",
+          "Senkel.Serialization.Core": "3.1.0"
+        },
+        "runtime": {
+          "io-directory-system.dll": {}
+        }
+      },
+      "Senkel.Collections.Conversions/0.1.2": {
+        "runtime": {
+          "lib/net6.0/collection-conversions.dll": {
+            "assemblyVersion": "0.1.2.0",
+            "fileVersion": "0.1.2.0"
+          }
+        }
+      },
+      "Senkel.IO.Core.Paths/2.0.1": {
+        "dependencies": {
+          "Senkel.Collections.Conversions": "0.1.2"
+        },
+        "runtime": {
+          "lib/net6.0/path-representation.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
+          }
+        }
+      },
+      "Senkel.Serialization.Core/3.1.0": {
+        "runtime": {
+          "lib/net6.0/serialization-framework.dll": {
+            "assemblyVersion": "3.1.0.0",
+            "fileVersion": "3.1.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "io-directory-system/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Senkel.Collections.Conversions/0.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oA87yk3+vmALK2DpcTbCh+dXEVVFgS2qPkh/i/ADdnTHvXN3wUV/xrPr+NkURyI6Vusr772knjbeoFafxyddsA==",
+      "path": "senkel.collections.conversions/0.1.2",
+      "hashPath": "senkel.collections.conversions.0.1.2.nupkg.sha512"
+    },
+    "Senkel.IO.Core.Paths/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o1A6r8XjvcSPN6IOeeKisW0o/vsoOgDTxhB/BVqLssHxVy5mE7Y6y3lxgr/ESLvRUgpSKC9r/NEHzQp5xPNZhA==",
+      "path": "senkel.io.core.paths/2.0.1",
+      "hashPath": "senkel.io.core.paths.2.0.1.nupkg.sha512"
+    },
+    "Senkel.Serialization.Core/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lUNrXYauQQW7Q40Wl61weqHiux+6ZVMbtyKuDyyDo4W854Z5FkE5W6OZVsn9icwo4gliI1G9tf5Az+DFKSJi2Q==",
+      "path": "senkel.serialization.core/3.1.0",
+      "hashPath": "senkel.serialization.core.3.1.0.nupkg.sha512"
+    }
+  }
+}

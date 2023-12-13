@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "path-serialization-system/1.0.0": {
+        "dependencies": {
+          "Senkel.ObjectModel.Decorating": "1.2.2",
+          "Senkel.Serialization": "3.1.1"
+        },
+        "runtime": {
+          "path-serialization-system.dll": {}
+        }
+      },
+      "Senkel.ObjectModel.Decorating/1.2.2": {
+        "runtime": {
+          "lib/net6.0/decorator-pattern.dll": {
+            "assemblyVersion": "1.2.2.0",
+            "fileVersion": "1.2.2.0"
+          }
+        }
+      },
+      "Senkel.Serialization/3.1.1": {
+        "runtime": {
+          "lib/net6.0/serialization-framework.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.1.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "path-serialization-system/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Senkel.ObjectModel.Decorating/1.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DwpwhB6ZWAMoSu1Qn9AKr54U7cozDTjIHtB7hIUywgnYvVyIbfGZwl1f+NJjGMmaaCGAVXJzOd5ac3yn31Z7qw==",
+      "path": "senkel.objectmodel.decorating/1.2.2",
+      "hashPath": "senkel.objectmodel.decorating.1.2.2.nupkg.sha512"
+    },
+    "Senkel.Serialization/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b9bedubjx8YSDEcOQLbmyRO6+dAqPKlefqdvOpEgnRlf7vRh/1vwPPxI3qH/ihwwhW3rJ43ewjxgJ9rvwsPtsg==",
+      "path": "senkel.serialization/3.1.1",
+      "hashPath": "senkel.serialization.3.1.1.nupkg.sha512"
+    }
+  }
+}

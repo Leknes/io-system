@@ -1,0 +1,12 @@
+D:\GitHub\io-directory-framework\bin\Debug\net6.0\io-directory-framework.deps.json
+D:\GitHub\io-directory-framework\bin\Debug\net6.0\io-directory-framework.dll
+D:\GitHub\io-directory-framework\bin\Debug\net6.0\io-directory-framework.pdb
+D:\GitHub\io-directory-framework\obj\Debug\net6.0\io-directory-framework.csproj.AssemblyReference.cache
+D:\GitHub\io-directory-framework\obj\Debug\net6.0\io-directory-framework.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\io-directory-framework\obj\Debug\net6.0\io-directory-framework.AssemblyInfoInputs.cache
+D:\GitHub\io-directory-framework\obj\Debug\net6.0\io-directory-framework.AssemblyInfo.cs
+D:\GitHub\io-directory-framework\obj\Debug\net6.0\io-directory-framework.csproj.CoreCompileInputs.cache
+D:\GitHub\io-directory-framework\obj\Debug\net6.0\io-directory-framework.dll
+D:\GitHub\io-directory-framework\obj\Debug\net6.0\refint\io-directory-framework.dll
+D:\GitHub\io-directory-framework\obj\Debug\net6.0\io-directory-framework.pdb
+D:\GitHub\io-directory-framework\obj\Debug\net6.0\ref\io-directory-framework.dll

@@ -1,0 +1,12 @@
+D:\GitHub\directory-localization\bin\Debug\net6.0\directory-localization.deps.json
+D:\GitHub\directory-localization\bin\Debug\net6.0\directory-localization.dll
+D:\GitHub\directory-localization\bin\Debug\net6.0\directory-localization.pdb
+D:\GitHub\directory-localization\obj\Debug\net6.0\directory-localization.csproj.AssemblyReference.cache
+D:\GitHub\directory-localization\obj\Debug\net6.0\directory-localization.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\directory-localization\obj\Debug\net6.0\directory-localization.AssemblyInfoInputs.cache
+D:\GitHub\directory-localization\obj\Debug\net6.0\directory-localization.AssemblyInfo.cs
+D:\GitHub\directory-localization\obj\Debug\net6.0\directory-localization.csproj.CoreCompileInputs.cache
+D:\GitHub\directory-localization\obj\Debug\net6.0\directory-localization.dll
+D:\GitHub\directory-localization\obj\Debug\net6.0\refint\directory-localization.dll
+D:\GitHub\directory-localization\obj\Debug\net6.0\directory-localization.pdb
+D:\GitHub\directory-localization\obj\Debug\net6.0\ref\directory-localization.dll

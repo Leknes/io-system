@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "path-representation/1.0.0": {
+        "dependencies": {
+          "Senkel.ObjectModel.Decorating": "1.2.0"
+        },
+        "runtime": {
+          "path-representation.dll": {}
+        }
+      },
+      "Senkel.ObjectModel.Decorating/1.2.0": {
+        "runtime": {
+          "lib/net6.0/decorator-pattern.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "path-representation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Senkel.ObjectModel.Decorating/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jOsXQ+j15ECq4V7de1ULpKSSEfdWlfAyx4t6wA++Log/eN6aC/TftHX77fftew5jVvVT1Wp6IujvNhnDrLZdDg==",
+      "path": "senkel.objectmodel.decorating/1.2.0",
+      "hashPath": "senkel.objectmodel.decorating.1.2.0.nupkg.sha512"
+    }
+  }
+}

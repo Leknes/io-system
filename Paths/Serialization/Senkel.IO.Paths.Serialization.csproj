@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <OutputType>Library</OutputType>
+    <PackageId>Senkel.IO.Paths.Serialization</PackageId>
+    <Authors>Leonhard Senkel</Authors>
+    <Company>Leonhard Senkel</Company>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageDescription>A basic library for serializing and deserializing files by their respective path.</PackageDescription>
+    <RepositoryUrl>https://github.com/Leknes/io-system</RepositoryUrl>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Senkel.ObjectModel.Decorating" Version="1.2.2" />
+    <PackageReference Include="Senkel.Serialization" Version="3.1.1" />
+  </ItemGroup>
+
+</Project>
