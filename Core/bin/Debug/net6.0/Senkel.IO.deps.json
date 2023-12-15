@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Senkel.IO/1.0.0": {
+        "dependencies": {
+          "Senkel.Model.Decorating": "1.0.0.0"
+        },
+        "runtime": {
+          "Senkel.IO.dll": {}
+        }
+      },
+      "Senkel.Model.Decorating/1.0.0.0": {
+        "runtime": {
+          "Senkel.Model.Decorating.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Senkel.IO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Senkel.Model.Decorating/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

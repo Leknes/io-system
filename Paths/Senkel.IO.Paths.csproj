@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <OutputType>Library</OutputType>
+    <PackageId>Senkel.IO.Paths</PackageId>
+    <Authors>Leonhard Senkel</Authors>
+    <Company>Leonhard Senkel</Company>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageDescription>A simple library providing classes for representing paths with low memory allocation.</PackageDescription>
+    <RepositoryUrl>https://github.com/Leknes/io-system</RepositoryUrl>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Senkel.IO.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Senkel.Model.Decorating">
+      <HintPath>..\..\Model\Decorating\bin\Debug\net6.0\Senkel.Model.Decorating.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

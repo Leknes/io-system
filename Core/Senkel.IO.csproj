@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	 <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Senkel.Model.Decorating">
+      <HintPath>..\..\Model\Decorating\bin\Debug\net6.0\Senkel.Model.Decorating.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
