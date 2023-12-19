@@ -1,7 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+	<TargetFrameworks>net8.0;netstandard2.1</TargetFrameworks>
+	<LangVersion>12.0</LangVersion>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <OutputType>Library</OutputType>
@@ -17,15 +18,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Core\Senkel.IO.csproj" />
     <ProjectReference Include="..\Paths\Senkel.IO.Paths.csproj" />
+	<ProjectReference Include="..\..\Model\Decorating\Senkel.Model.Decorating.csproj" />
   </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="Senkel.Model.Decorating">
-      <HintPath>..\..\Model\Decorating\bin\Debug\net6.0\Senkel.Model.Decorating.dll</HintPath>
-    </Reference>
-    <Reference Include="Senkel.Serialization">
-      <HintPath>..\..\Serialization\Core\bin\Debug\net6.0\Senkel.Serialization.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
+  
 </Project>

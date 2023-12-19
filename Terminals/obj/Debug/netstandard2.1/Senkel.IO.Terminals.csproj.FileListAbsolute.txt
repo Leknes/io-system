@@ -1,0 +1,6 @@
+D:\GitHub\Senkel\IO\Terminals\obj\Debug\netstandard2.1\Senkel.IO.Terminals.csproj.AssemblyReference.cache
+D:\GitHub\Senkel\IO\Terminals\obj\Debug\netstandard2.1\Senkel.IO.Terminals.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\Senkel\IO\Terminals\obj\Debug\netstandard2.1\Senkel.IO.Terminals.AssemblyInfoInputs.cache
+D:\GitHub\Senkel\IO\Terminals\obj\Debug\netstandard2.1\Senkel.IO.Terminals.AssemblyInfo.cs
+D:\GitHub\Senkel\IO\Terminals\obj\Debug\netstandard2.1\Senkel.IO.Terminals.csproj.CoreCompileInputs.cache
+D:\GitHub\Senkel\IO\Terminals\obj\Debug\netstandard2.1\Senkel.IO.Terminals.sourcelink.json

@@ -1,0 +1,6 @@
+D:\GitHub\Senkel\IO\Serialization\obj\Debug\netstandard2.1\Senkel.IO.Serialization.csproj.AssemblyReference.cache
+D:\GitHub\Senkel\IO\Serialization\obj\Debug\netstandard2.1\Senkel.IO.Serialization.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\Senkel\IO\Serialization\obj\Debug\netstandard2.1\Senkel.IO.Serialization.AssemblyInfoInputs.cache
+D:\GitHub\Senkel\IO\Serialization\obj\Debug\netstandard2.1\Senkel.IO.Serialization.AssemblyInfo.cs
+D:\GitHub\Senkel\IO\Serialization\obj\Debug\netstandard2.1\Senkel.IO.Serialization.csproj.CoreCompileInputs.cache
+D:\GitHub\Senkel\IO\Serialization\obj\Debug\netstandard2.1\Senkel.IO.Serialization.sourcelink.json

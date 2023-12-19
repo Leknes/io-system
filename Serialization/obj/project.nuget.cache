@@ -1,8 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "6t6Fx2k64vzro0apRvK/hxRSSRibuNP6DfKnIZnIc2j2KTrNY2RHoWStFHNozP6TvgsQAUtHu4SbKZOvUol9FA==",
-  "success": true,
+  "dgSpecHash": "uKnmanprrTdxLKwXXzF89byao71ZKh/SgeY0SMbDnizi5Q4968a3Jl15weO9lEDy03GlGvdFyRKtoK9Eojqqug==",
+  "success": false,
   "projectFilePath": "D:\\GitHub\\Senkel\\IO\\Serialization\\Senkel.IO.Serialization.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Projektinformationen für \"D:\\GitHub\\Senkel\\Adjustments\\CSharp12\\Senkel.Adjustments.CSharp12.csproj\" wurden nicht gefunden. Wenn Sie Visual Studio verwenden, wurde das Projekt möglicherweise entladen oder gehört nicht zur aktuellen Projektmappe. Führen Sie daher eine Wiederherstellung über die Befehlszeile aus. Andernfalls ist die Projektdatei möglicherweise ungültig, oder es fehlen Ziele, die für die Wiederherstellung erforderlich sind.",
+      "libraryId": "D:\\GitHub\\Senkel\\Adjustments\\CSharp12\\Senkel.Adjustments.CSharp12.csproj",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1",
+        "net8.0"
+      ]
+    }
+  ]
 }

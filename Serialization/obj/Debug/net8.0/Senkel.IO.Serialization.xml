@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Senkel.IO.Serialization</name>
+    </assembly>
+    <members>
+        <member name="T:Senkel.IO.Serialization.FileDeserializer">
+            <summary>
+            Represents a deserializer that is capable of deserializing an object from a file using an initially set <see cref="T:Senkel.IO.Terminals.IFileTerminal"/> object 
+            and an <see cref="T:Senkel.Serialization.IStreamDeserializer"/> deserializer.
+            </summary>
+        </member>
+        <member name="M:Senkel.IO.Serialization.FileDeserializer.#ctor(Senkel.IO.Terminals.IFileTerminal,Senkel.Serialization.IStreamDeserializer)">
+            <summary>
+            Creates a new instance of the <see cref="T:Senkel.IO.Serialization.FileDeserializer"/> class that uses the specified <see cref="T:Senkel.Serialization.IStreamDeserializer"/> object for deserializing
+            and the given <see cref="T:Senkel.IO.Terminals.IFileTerminal"/> for reading files.
+            </summary>
+            <param name="terminal">The terminal to use for reading files.</param>
+            <param name="deserializer">The deserializer to use for deserializing files.</param>
+        </member>
+        <member name="M:Senkel.IO.Serialization.FileDeserializer.Deserialize``1(System.String)">
+            <summary>
+            Deserializes an object of the specified type from the file at the specified path determined by an <see cref="T:Senkel.IO.Terminals.IFileTerminal"/> object.
+            </summary> 
+            <inheritdoc/>
+        </member>
+        <member name="M:Senkel.IO.Serialization.FileDeserializer.Deserialize(System.String,System.Type)">
+            <summary>
+            Deserializes an object of the specified type from the file at the specified path determined by an <see cref="T:Senkel.IO.Terminals.IFileTerminal"/> object.
+            </summary> 
+            <inheritdoc/>
+        </member>
+        <member name="T:Senkel.IO.Serialization.FileSerializer">
+            <summary>
+            Represents a file serializer that serializes files based on an initially set <see cref="T:Senkel.IO.Terminals.IFileTerminal"/> object and an <see cref="T:Senkel.Serialization.IStreamSerializer"/> serializer.
+            </summary>
+        </member>
+        <member name="M:Senkel.IO.Serialization.FileSerializer.#ctor(Senkel.IO.Terminals.IFileTerminal,Senkel.Serialization.IStreamSerializer)">
+            <summary>
+            Creates a new instance of the <see cref="T:Senkel.IO.Serialization.FileSerializer"/> class that uses the specified <see cref="T:Senkel.IO.Terminals.IFileTerminal"/> object for serializing files based on their paths.
+            </summary>
+            <param name="terminal">The terminal that is for writing to files.</param>
+            <param name="serializer">The serializer to use for serializing files.</param>
+        </member>
+        <member name="M:Senkel.IO.Serialization.FileSerializer.Serialize(System.String,System.Object)">
+            <summary>
+            Serializes the given object into the file at the specified path determined by the initially set <see cref="T:Senkel.IO.Terminals.IFileTerminal"/> object 
+            and creates the parent directory of the file unless it already exists.
+            </summary>
+            <inheritdoc/>
+        </member>
+    </members>
+</doc>
