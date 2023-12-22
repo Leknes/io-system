@@ -1,4 +1,6 @@
-﻿using Senkel.Model.Decorating;
+﻿global using System.IO;
+
+using Senkel;
 
 namespace Senkel.IO.Paths;
 

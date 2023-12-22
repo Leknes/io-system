@@ -6,10 +6,10 @@
     <members>
         <member name="T:Senkel.IO.Terminals.DirectoryTerminal">
             <summary>
-            Represents a manager that is capable of managing directories with paths that are modified by the initally set <see cref="T:Senkel.Model.Decorating.IDuplexDecorator`1"/> decorator.
+            Represents a manager that is capable of managing directories with paths that are modified by the initally set <see cref="T:Senkel.IDuplexDecorator`1"/> decorator.
             </summary>
         </member>
-        <member name="M:Senkel.IO.Terminals.DirectoryTerminal.#ctor(Senkel.Model.Decorating.IDuplexDecorator{System.String})">
+        <member name="M:Senkel.IO.Terminals.DirectoryTerminal.#ctor(Senkel.IDuplexDecorator{System.String})">
             <summary>
             Creates a new instance of the <see cref="T:Senkel.IO.Terminals.DirectoryTerminal"/> class that modifies paths based on the specified path decorator.
             </summary>
@@ -71,10 +71,10 @@
         </member>
         <member name="T:Senkel.IO.Terminals.FileTerminal">
             <summary>
-            Represents a manager that is capable of managing files with paths that are modified by the initally set <see cref="T:Senkel.Model.Decorating.IDuplexDecorator`1"/> decorator.
+            Represents a manager that is capable of managing files with paths that are modified by the initally set <see cref="T:Senkel.IDuplexDecorator`1"/> decorator.
             </summary>
         </member>
-        <member name="M:Senkel.IO.Terminals.FileTerminal.#ctor(Senkel.Model.Decorating.IDuplexDecorator{System.String})">
+        <member name="M:Senkel.IO.Terminals.FileTerminal.#ctor(Senkel.IDuplexDecorator{System.String})">
             <summary>
             Creates a new instance of the <see cref="T:Senkel.IO.Terminals.FileTerminal"/> class that modifies paths based on the specified path decorator.
             </summary>

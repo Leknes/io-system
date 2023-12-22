@@ -9,43 +9,58 @@
       "Senkel.IO.Serialization/1.0.0": {
         "dependencies": {
           "Senkel.IO": "1.0.0",
+          "Senkel.IO.Extensions": "1.0.0",
           "Senkel.Serialization": "1.0.0",
-          "Senkel.Adjustments.CSharp12": "1.0.0.0",
-          "Senkel.Model.Decorating": "1.0.0.0"
+          "Senkel.Core.Decorating": "1.0.0.0",
+          "Senkel.IO.Core": "1.0.0.0",
+          "Senkel.Serialization.Core": "1.0.0.0"
         },
         "runtime": {
           "Senkel.IO.Serialization.dll": {}
         }
       },
-      "Senkel.Framework.Decorating/1.0.0": {
-        "runtime": {
-          "Senkel.Model.Decorating.dll": {}
-        }
-      },
       "Senkel.IO/1.0.0": {
         "dependencies": {
-          "Senkel.Framework.Decorating": "1.0.0"
+          "Senkel.Model.Decorating": "1.0.0"
         },
         "runtime": {
-          "Senkel.IO.dll": {}
+          "Senkel.IO.Core.dll": {}
+        }
+      },
+      "Senkel.IO.Extensions/1.0.0": {
+        "runtime": {
+          "Senkel.IO.Extensions.dll": {}
+        }
+      },
+      "Senkel.Model.Decorating/1.0.0": {
+        "runtime": {
+          "Senkel.Core.Decorating.dll": {}
         }
       },
       "Senkel.Serialization/1.0.0": {
         "runtime": {
-          "Senkel.Serialization.dll": {}
+          "Senkel.Serialization.Core.dll": {}
         }
       },
-      "Senkel.Adjustments.CSharp12/1.0.0.0": {
+      "Senkel.Core.Decorating/1.0.0.0": {
         "runtime": {
-          "Senkel.Adjustments.CSharp12.dll": {
+          "Senkel.Core.Decorating.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
       },
-      "Senkel.Model.Decorating/1.0.0.0": {
+      "Senkel.IO.Core/1.0.0.0": {
         "runtime": {
-          "Senkel.Model.Decorating.dll": {
+          "Senkel.IO.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Senkel.Serialization.Core/1.0.0.0": {
+        "runtime": {
+          "Senkel.Serialization.Core.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -59,12 +74,17 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Senkel.Framework.Decorating/1.0.0": {
+    "Senkel.IO/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Senkel.IO/1.0.0": {
+    "Senkel.IO.Extensions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Senkel.Model.Decorating/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -74,12 +94,17 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Senkel.Adjustments.CSharp12/1.0.0.0": {
+    "Senkel.Core.Decorating/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "Senkel.Model.Decorating/1.0.0.0": {
+    "Senkel.IO.Core/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Senkel.Serialization.Core/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

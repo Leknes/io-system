@@ -1,17 +1,234 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\Senkel\\IO\\Paths\\Senkel.IO.Paths.csproj": {}
+    "D:\\Programming\\C#\\Senkel\\IO\\Paths\\Senkel.IO.Paths.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\Senkel\\IO\\Core\\Senkel.IO.csproj": {
+    "D:\\Programming\\C#\\Senkel\\Compatibility\\NullableAttributes\\Senkel.Compatibility.NullableAttributes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\Senkel\\IO\\Core\\Senkel.IO.csproj",
+        "projectUniqueName": "D:\\Programming\\C#\\Senkel\\Compatibility\\NullableAttributes\\Senkel.Compatibility.NullableAttributes.csproj",
+        "projectName": "Senkel.Compatibility.NullableAttribute",
+        "projectPath": "D:\\Programming\\C#\\Senkel\\Compatibility\\NullableAttributes\\Senkel.Compatibility.NullableAttributes.csproj",
+        "packagesPath": "C:\\Users\\Leonhard\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\C#\\Senkel\\Compatibility\\NullableAttributes\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Leonhard\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/Leknes/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programming\\C#\\Senkel\\Compatibility\\RequiredModifier\\Senkel.Compatibility.RequiredModifier.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programming\\C#\\Senkel\\Compatibility\\RequiredModifier\\Senkel.Compatibility.RequiredModifier.csproj",
+        "projectName": "Senkel.Compatibility.RequiredModifier",
+        "projectPath": "D:\\Programming\\C#\\Senkel\\Compatibility\\RequiredModifier\\Senkel.Compatibility.RequiredModifier.csproj",
+        "packagesPath": "C:\\Users\\Leonhard\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\C#\\Senkel\\Compatibility\\RequiredModifier\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Leonhard\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/Leknes/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programming\\C#\\Senkel\\Core\\Decorating\\Senkel.Core.Decorating.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programming\\C#\\Senkel\\Core\\Decorating\\Senkel.Core.Decorating.csproj",
+        "projectName": "Senkel.Model.Decorating",
+        "projectPath": "D:\\Programming\\C#\\Senkel\\Core\\Decorating\\Senkel.Core.Decorating.csproj",
+        "packagesPath": "C:\\Users\\Leonhard\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\C#\\Senkel\\Core\\Decorating\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Leonhard\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0",
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/Leknes/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          },
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\Programming\\C#\\Senkel\\Compatibility\\NullableAttributes\\Senkel.Compatibility.NullableAttributes.csproj": {
+                "projectPath": "D:\\Programming\\C#\\Senkel\\Compatibility\\NullableAttributes\\Senkel.Compatibility.NullableAttributes.csproj",
+                "privateAssets": "all"
+              },
+              "D:\\Programming\\C#\\Senkel\\Compatibility\\RequiredModifier\\Senkel.Compatibility.RequiredModifier.csproj": {
+                "projectPath": "D:\\Programming\\C#\\Senkel\\Compatibility\\RequiredModifier\\Senkel.Compatibility.RequiredModifier.csproj",
+                "privateAssets": "all"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        },
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programming\\C#\\Senkel\\IO\\Core\\Senkel.IO.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programming\\C#\\Senkel\\IO\\Core\\Senkel.IO.Core.csproj",
         "projectName": "Senkel.IO",
-        "projectPath": "D:\\GitHub\\Senkel\\IO\\Core\\Senkel.IO.csproj",
+        "projectPath": "D:\\Programming\\C#\\Senkel\\IO\\Core\\Senkel.IO.Core.csproj",
         "packagesPath": "C:\\Users\\Leonhard\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\Senkel\\IO\\Core\\obj\\",
+        "outputPath": "D:\\Programming\\C#\\Senkel\\IO\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -35,16 +252,24 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\GitHub\\Senkel\\Model\\Decorating\\Senkel.Model.Decorating.csproj": {
-                "projectPath": "D:\\GitHub\\Senkel\\Model\\Decorating\\Senkel.Model.Decorating.csproj"
+              "D:\\Programming\\C#\\Senkel\\Core\\Decorating\\Senkel.Core.Decorating.csproj": {
+                "projectPath": "D:\\Programming\\C#\\Senkel\\Core\\Decorating\\Senkel.Core.Decorating.csproj"
               }
             }
           },
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "D:\\GitHub\\Senkel\\Model\\Decorating\\Senkel.Model.Decorating.csproj": {
-                "projectPath": "D:\\GitHub\\Senkel\\Model\\Decorating\\Senkel.Model.Decorating.csproj"
+              "D:\\Programming\\C#\\Senkel\\Compatibility\\NullableAttributes\\Senkel.Compatibility.NullableAttributes.csproj": {
+                "projectPath": "D:\\Programming\\C#\\Senkel\\Compatibility\\NullableAttributes\\Senkel.Compatibility.NullableAttributes.csproj",
+                "privateAssets": "all"
+              },
+              "D:\\Programming\\C#\\Senkel\\Compatibility\\RequiredModifier\\Senkel.Compatibility.RequiredModifier.csproj": {
+                "projectPath": "D:\\Programming\\C#\\Senkel\\Compatibility\\RequiredModifier\\Senkel.Compatibility.RequiredModifier.csproj",
+                "privateAssets": "all"
+              },
+              "D:\\Programming\\C#\\Senkel\\Core\\Decorating\\Senkel.Core.Decorating.csproj": {
+                "projectPath": "D:\\Programming\\C#\\Senkel\\Core\\Decorating\\Senkel.Core.Decorating.csproj"
               }
             }
           }
@@ -98,14 +323,14 @@
         }
       }
     },
-    "D:\\GitHub\\Senkel\\IO\\Paths\\Senkel.IO.Paths.csproj": {
+    "D:\\Programming\\C#\\Senkel\\IO\\Paths\\Senkel.IO.Paths.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\Senkel\\IO\\Paths\\Senkel.IO.Paths.csproj",
+        "projectUniqueName": "D:\\Programming\\C#\\Senkel\\IO\\Paths\\Senkel.IO.Paths.csproj",
         "projectName": "Senkel.IO.Paths",
-        "projectPath": "D:\\GitHub\\Senkel\\IO\\Paths\\Senkel.IO.Paths.csproj",
+        "projectPath": "D:\\Programming\\C#\\Senkel\\IO\\Paths\\Senkel.IO.Paths.csproj",
         "packagesPath": "C:\\Users\\Leonhard\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\Senkel\\IO\\Paths\\obj\\",
+        "outputPath": "D:\\Programming\\C#\\Senkel\\IO\\Paths\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -129,110 +354,32 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\GitHub\\Senkel\\IO\\Core\\Senkel.IO.csproj": {
-                "projectPath": "D:\\GitHub\\Senkel\\IO\\Core\\Senkel.IO.csproj"
+              "D:\\Programming\\C#\\Senkel\\Core\\Decorating\\Senkel.Core.Decorating.csproj": {
+                "projectPath": "D:\\Programming\\C#\\Senkel\\Core\\Decorating\\Senkel.Core.Decorating.csproj"
               },
-              "D:\\GitHub\\Senkel\\Model\\Decorating\\Senkel.Model.Decorating.csproj": {
-                "projectPath": "D:\\GitHub\\Senkel\\Model\\Decorating\\Senkel.Model.Decorating.csproj"
+              "D:\\Programming\\C#\\Senkel\\IO\\Core\\Senkel.IO.Core.csproj": {
+                "projectPath": "D:\\Programming\\C#\\Senkel\\IO\\Core\\Senkel.IO.Core.csproj"
               }
             }
           },
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "D:\\GitHub\\Senkel\\IO\\Core\\Senkel.IO.csproj": {
-                "projectPath": "D:\\GitHub\\Senkel\\IO\\Core\\Senkel.IO.csproj"
+              "D:\\Programming\\C#\\Senkel\\Compatibility\\NullableAttributes\\Senkel.Compatibility.NullableAttributes.csproj": {
+                "projectPath": "D:\\Programming\\C#\\Senkel\\Compatibility\\NullableAttributes\\Senkel.Compatibility.NullableAttributes.csproj",
+                "privateAssets": "all"
               },
-              "D:\\GitHub\\Senkel\\Model\\Decorating\\Senkel.Model.Decorating.csproj": {
-                "projectPath": "D:\\GitHub\\Senkel\\Model\\Decorating\\Senkel.Model.Decorating.csproj"
+              "D:\\Programming\\C#\\Senkel\\Compatibility\\RequiredModifier\\Senkel.Compatibility.RequiredModifier.csproj": {
+                "projectPath": "D:\\Programming\\C#\\Senkel\\Compatibility\\RequiredModifier\\Senkel.Compatibility.RequiredModifier.csproj",
+                "privateAssets": "all"
+              },
+              "D:\\Programming\\C#\\Senkel\\Core\\Decorating\\Senkel.Core.Decorating.csproj": {
+                "projectPath": "D:\\Programming\\C#\\Senkel\\Core\\Decorating\\Senkel.Core.Decorating.csproj"
+              },
+              "D:\\Programming\\C#\\Senkel\\IO\\Core\\Senkel.IO.Core.csproj": {
+                "projectPath": "D:\\Programming\\C#\\Senkel\\IO\\Core\\Senkel.IO.Core.csproj"
               }
             }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
-        },
-        "netstandard2.1": {
-          "targetAlias": "netstandard2.1",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "NETStandard.Library": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\GitHub\\Senkel\\Model\\Decorating\\Senkel.Model.Decorating.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\GitHub\\Senkel\\Model\\Decorating\\Senkel.Model.Decorating.csproj",
-        "projectName": "Senkel.Framework.Decorating",
-        "projectPath": "D:\\GitHub\\Senkel\\Model\\Decorating\\Senkel.Model.Decorating.csproj",
-        "packagesPath": "C:\\Users\\Leonhard\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\Senkel\\Model\\Decorating\\obj\\",
-        "projectStyle": "PackageReference",
-        "crossTargeting": true,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Leonhard\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0",
-          "netstandard2.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.pkg.github.com/Leknes/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {}
-          },
-          "netstandard2.1": {
-            "targetAlias": "netstandard2.1",
-            "projectReferences": {}
           }
         },
         "warningProperties": {

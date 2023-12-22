@@ -1,9 +1,4 @@
-﻿using Senkel.Model.Decorating;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System; 
 
 namespace Senkel.IO.Serialization;
 
@@ -17,7 +12,7 @@ public interface IFileDeserializer
     /// </summary>
     /// <typeparam name="T">The type of the object to deserialize.</typeparam>
     /// <param name="path">The path of the file to deserialize from.</param>
-    /// <returns>The deserializede object.</returns>
+    /// <returns>The deserialized object.</returns>
     public T? Deserialize<T>(string path);
 
     /// <summary>
@@ -25,6 +20,6 @@ public interface IFileDeserializer
     /// </summary>
     /// <param name="type">The type of the object to deserialize.</param>
     /// <param name="path">The path of the file to deserialize from.</param>
-    /// <returns>The deserializede object.</returns>
+    /// <returns>The deserialized object.</returns>
     public object? Deserialize(string path, Type type);
 }

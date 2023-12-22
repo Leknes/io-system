@@ -1,24 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-	<TargetFrameworks>net8.0;netstandard2.1</TargetFrameworks>
-	<LangVersion>12.0</LangVersion>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-    <OutputType>Library</OutputType>
     <PackageId>Senkel.IO.Paths.Serialization</PackageId>
-    <Authors>Leonhard Senkel</Authors>
-    <Company>Leonhard Senkel</Company>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageDescription>A basic library for serializing and deserializing files by their respective path.</PackageDescription>
-    <RepositoryUrl>https://github.com/Leknes/io-system</RepositoryUrl>
-    <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 	 
   <ItemGroup>
-    <ProjectReference Include="..\Core\Senkel.IO.csproj" />
-	<ProjectReference Include="..\..\Serialization\Core\Senkel.Serialization.csproj" />
-	<ProjectReference Include="..\..\Adjustments\CSharp12\Senkel.Adjustments.CSharp12.csproj" />
+    <ProjectReference Include="..\Core\Senkel.IO.Core.csproj" />
+	<ProjectReference Include="..\..\Serialization\Core\Senkel.Serialization.Core.csproj" />
+	<ProjectReference Include="..\Extensions\Senkel.IO.Extensions.csproj" />
   </ItemGroup>
 	
 </Project>

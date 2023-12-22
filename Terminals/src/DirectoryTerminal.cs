@@ -1,4 +1,4 @@
-﻿using Senkel.Model.Decorating;
+﻿using System.IO;
 using Senkel.IO.Paths;
 
 namespace Senkel.IO.Terminals

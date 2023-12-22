@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Leonhard Senkel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af1e9a59696eb5859a6bf53d2c16fa02fed1c9e0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Senkel.IO.Serialization")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Senkel.IO.Serialization")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

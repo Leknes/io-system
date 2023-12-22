@@ -1,5 +1,5 @@
 ﻿using Senkel.IO.Paths;
-using Senkel.Model.Decorating;
+using System.IO;
  
 namespace Senkel.IO.Terminals
 {

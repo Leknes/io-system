@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lq2Fwv1yTBlWo09QGVfErlMVFflQG1V7bifS6ylgoUgTiejkZTxcMWboFGHLbbYyyZMhdOGhJ1CpCmrs6Y2dDg==",
+  "dgSpecHash": "kQ+cPGFiKtugGEZ/detvzciT2OYys1Y+i+skMn/Or7CW9J/hhRVmLr8ccULyaPBxQLpOPbIheXycDmpP1ZKBcQ==",
   "success": true,
-  "projectFilePath": "D:\\GitHub\\Senkel\\IO\\Core\\Senkel.IO.csproj",
+  "projectFilePath": "D:\\Programming\\C#\\Senkel\\IO\\Core\\Senkel.IO.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<PackageId>Senkel.IO</PackageId>
+    <PackageDescription>Provides a model for io-related types</PackageDescription>
+  </PropertyGroup>
+
+  <ItemGroup> 
+	<ProjectReference Include="..\..\Core\Decorating\Senkel.Core.Decorating.csproj" /> 
+  </ItemGroup>
+
+</Project>

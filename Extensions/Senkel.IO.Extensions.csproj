@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<PackageId>Senkel.IO.Extensions</PackageId>
+    <PackageDescription>Provides extensions for io-related types.</PackageDescription>
+  </PropertyGroup>
+ 
+</Project>

@@ -6,7 +6,7 @@
     <members>
         <member name="T:Senkel.IO.Paths.DirectoryPath">
             <summary>
-            Implements the <see cref="T:Senkel.Model.Decorating.IDuplexDecorator`1"/> interface for decorating other subpaths of the directory corresponding to the represented path.
+            Implements the <see cref="T:Senkel.IDuplexDecorator`1"/> interface for decorating other subpaths of the directory corresponding to the represented path.
             </summary>
         </member>
         <member name="M:Senkel.IO.Paths.DirectoryPath.#ctor(System.Object)">
@@ -15,7 +15,7 @@
             </summary>
             <param name="path">The path of the directory to represent that is determined by the <see cref="M:System.Object.ToString"/> method.</param>
         </member>
-        <member name="M:Senkel.IO.Paths.DirectoryPath.#ctor(Senkel.Model.Decorating.IDuplexDecorator{System.String},System.Object)">
+        <member name="M:Senkel.IO.Paths.DirectoryPath.#ctor(Senkel.IDuplexDecorator{System.String},System.Object)">
             <summary>
             Creates a new instance of the <see cref="T:Senkel.IO.Paths.DirectoryPath"/> class that uses the specified path as a representation of the corresponding directory.
             </summary>
@@ -39,7 +39,7 @@
         </member>
         <member name="T:Senkel.IO.Paths.ExtensionPath">
             <summary>
-            Represents an implementation of the <see cref="T:Senkel.Model.Decorating.IDecorator`1"/> interface that adds a the specified extension string, that is initialized in the constructor, to a path.
+            Represents an implementation of the <see cref="T:Senkel.IDecorator`1"/> interface that adds a the specified extension string, that is initialized in the constructor, to a path.
             </summary>
         </member>
         <member name="P:Senkel.IO.Paths.ExtensionPath.Extension">
@@ -53,7 +53,7 @@
             </summary>
             <param name="extension">The file extension to be used by the class that is determined by the <see cref="M:System.Object.ToString"/> method.</param>
         </member>
-        <member name="M:Senkel.IO.Paths.ExtensionPath.#ctor(Senkel.Model.Decorating.IDuplexDecorator{System.String},System.Object)">
+        <member name="M:Senkel.IO.Paths.ExtensionPath.#ctor(Senkel.IDuplexDecorator{System.String},System.Object)">
             <summary>
             Creates a new instance of the <see cref="T:Senkel.IO.Paths.ExtensionPath"/> class that used the specified extension.
             </summary>
@@ -69,15 +69,15 @@
         </member>
         <member name="T:Senkel.IO.Paths.FilePath">
             <summary>
-            Represents a file at the specified path that can be based on an <see cref="T:Senkel.Model.Decorating.IDuplexDecorator`1"/> object for decorating the path.
+            Represents a file at the specified path that can be based on an <see cref="T:Senkel.IDuplexDecorator`1"/> object for decorating the path.
             </summary>
         </member>
-        <member name="M:Senkel.IO.Paths.FilePath.#ctor(Senkel.Model.Decorating.IDuplexDecorator{System.String},System.Object)">
+        <member name="M:Senkel.IO.Paths.FilePath.#ctor(Senkel.IDuplexDecorator{System.String},System.Object)">
             <summary>
-            Creates a new instance of the <see cref="T:Senkel.IO.Paths.FilePath"/> class where the specified path is decorated by the given <see cref="T:Senkel.Model.Decorating.IDuplexDecorator`1"/> object.
+            Creates a new instance of the <see cref="T:Senkel.IO.Paths.FilePath"/> class where the specified path is decorated by the given <see cref="T:Senkel.IDuplexDecorator`1"/> object.
             </summary>
             <param name="pathDecorator">The path decorator that the path of the represented file is decorated by.</param>
-            <param name="path">The path that is decorated by the given <see cref="T:Senkel.Model.Decorating.IDuplexDecorator`1"/> object that is determined by the <see cref="M:System.Object.ToString"/> method.</param>
+            <param name="path">The path that is decorated by the given <see cref="T:Senkel.IDuplexDecorator`1"/> object that is determined by the <see cref="M:System.Object.ToString"/> method.</param>
         </member>
         <member name="M:Senkel.IO.Paths.FilePath.#ctor(System.Object)">
             <summary>
