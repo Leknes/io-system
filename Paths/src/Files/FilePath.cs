@@ -11,14 +11,14 @@ namespace Senkel.IO.Paths;
 /// </summary>
 public class FilePath : DuplexDecorable<string>, ISystemPath
 { 
-    private readonly object _path;
+    private readonly string _path;
 
     /// <summary>
     /// Creates a new instance of the <see cref="FilePath"/> class where the specified path is decorated by the given <see cref="IDuplexDecorator{T}"/> object.
     /// </summary>
     /// <param name="pathDecorator">The path decorator that the path of the represented file is decorated by.</param>
-    /// <param name="path">The path that is decorated by the given <see cref="IDuplexDecorator{T}"/> object that is determined by the <see cref="object.ToString"/> method.</param>
-    public FilePath(IDuplexDecorator<string> pathDecorator, object path) : base(pathDecorator)
+    /// <param name="path">The path that is decorated by the given <see cref="IDuplexDecorator{T}"/> object.</param>
+    public FilePath(IDuplexDecorator<string> pathDecorator, string path) : base(pathDecorator)
     { 
         _path = path;
     }
@@ -27,19 +27,19 @@ public class FilePath : DuplexDecorable<string>, ISystemPath
     /// Creates a new instance of the <see cref="FilePath"/> class with the specified path.
     /// </summary> 
     /// <param name="path">The path that represents the file of the <see cref="FilePath"/>.</param>
-    public FilePath(object path) : base()
+    public FilePath(string path) : base()
     {
         _path = path;
     }
 
     /// <summary>
-    /// Returns the <see cref="Value"/> property value of the object which is the represented path of a file.
+    /// Returns the <see cref="Path"/> property value of the object which is the represented path of a file.
     /// </summary> 
     public sealed override string ToString()
     {
-        return Value;
+        return Path;
     }
       
     /// <inheritdoc/>
-    public string Value => Decorate(_path.ToString()!);
+    public string Path => Decorate(_path);
 }

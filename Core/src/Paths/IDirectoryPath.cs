@@ -14,6 +14,6 @@ public interface IDirectoryPath : ISystemPath, IDuplexDecorator<string>
     /// <summary>
     /// The path of the directory.
     /// </summary>
-    public new string Value { get; } 
+    public new string Path { get; } 
 }
 

@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>Senkel.IO.Systems</PackageId>
+    <PackageDescription>A library providing implementations for accessing system files and directories.</PackageDescription>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Senkel.IO.Core.csproj" />
+    <ProjectReference Include="..\Extensions\Senkel.IO.Extensions.csproj" />
+  </ItemGroup>
+
+</Project>

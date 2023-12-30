@@ -11,30 +11,25 @@ namespace Senkel.IO.Paths;
 /// </summary>
 public class ExtensionPath : DuplexDecorator<string>
 {
-    private object _extension;
-
-    /// <summary>
-    /// The extension that is used for extending a path.
-    /// </summary>
-    public string Extension => _extension.ToString()!;
+    public readonly string Extension;
 
     /// <summary>
     /// Creates a new instance of the <see cref="ExtensionPath"/> class that used the specified extension.
     /// </summary>
-    /// <param name="extension">The file extension to be used by the class that is determined by the <see cref="object.ToString"/> method.</param>
-    public ExtensionPath(object extension) : base()
+    /// <param name="extension">The file extension to be used by the class.</param>
+    public ExtensionPath(string extension) : base()
     {
-        _extension = extension;
+        Extension = extension;
     }
 
     /// <summary>
     /// Creates a new instance of the <see cref="ExtensionPath"/> class that used the specified extension.
     /// </summary>
     /// <param name="pathDecorator">The path decorator that the path with the corresponding extension is decorated by.</param>
-    /// <param name="extension">The file extension to be used by the class that is determined by the <see cref="object.ToString"/> method.</param>
-    public ExtensionPath(IDuplexDecorator<string> pathDecorator, object extension) : base(pathDecorator)
+    /// <param name="extension">The file extension to be used by the class .</param>
+    public ExtensionPath(IDuplexDecorator<string> pathDecorator, string extension) : base(pathDecorator)
     {
-        _extension = extension;
+        Extension = extension;
     }
 
 

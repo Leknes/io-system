@@ -3,15 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Senkel.IO.Terminals", "Terminals\Senkel.IO.Terminals.csproj", "{A034BDD1-8F4C-4D46-949D-383F7AFE3A26}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Senkel.IO.Serialization", "Serialization\Senkel.IO.Serialization.csproj", "{821DF1AE-1364-4A32-8435-298B9FDD4989}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Senkel.IO.Paths", "Paths\Senkel.IO.Paths.csproj", "{A469E0A6-20E7-4BB5-B022-686640EC8B1B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Senkel.IO.Extensions", "Extensions\Senkel.IO.Extensions.csproj", "{1645B321-E45B-4A6A-A834-141699AFCA93}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Senkel.IO.Core", "Core\Senkel.IO.Core.csproj", "{D0DDFE23-3E52-4FFE-BDF8-FA5A3B14E488}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Senkel.IO.Systems", "Systems\Senkel.IO.Systems.csproj", "{CAEA2390-00ED-467F-8353-5EB92BDAA54F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A034BDD1-8F4C-4D46-949D-383F7AFE3A26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A034BDD1-8F4C-4D46-949D-383F7AFE3A26}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A034BDD1-8F4C-4D46-949D-383F7AFE3A26}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A034BDD1-8F4C-4D46-949D-383F7AFE3A26}.Release|Any CPU.Build.0 = Release|Any CPU
-		{821DF1AE-1364-4A32-8435-298B9FDD4989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{821DF1AE-1364-4A32-8435-298B9FDD4989}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{821DF1AE-1364-4A32-8435-298B9FDD4989}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{821DF1AE-1364-4A32-8435-298B9FDD4989}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A469E0A6-20E7-4BB5-B022-686640EC8B1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A469E0A6-20E7-4BB5-B022-686640EC8B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A469E0A6-20E7-4BB5-B022-686640EC8B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +29,10 @@ Global
 		{D0DDFE23-3E52-4FFE-BDF8-FA5A3B14E488}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0DDFE23-3E52-4FFE-BDF8-FA5A3B14E488}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0DDFE23-3E52-4FFE-BDF8-FA5A3B14E488}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAEA2390-00ED-467F-8353-5EB92BDAA54F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAEA2390-00ED-467F-8353-5EB92BDAA54F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAEA2390-00ED-467F-8353-5EB92BDAA54F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAEA2390-00ED-467F-8353-5EB92BDAA54F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

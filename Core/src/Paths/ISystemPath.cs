@@ -14,5 +14,5 @@ public interface ISystemPath
     /// <summary>
     /// The path of the corresponding directory or path.
     /// </summary>
-    public abstract string Value { get; }
+    public abstract string Path { get; }
 }
