@@ -5,6 +5,10 @@ namespace Senkel.IO.Systems;
 
 public class FileExplorer : IFileExplorer
 {
+    private FileExplorer() { }
+
+    public static FileExplorer Instance { get; } = new FileExplorer();
+
     public void Copy(string sourcePath, string destinationPath, bool overwrite = false)
     {
         File.Copy(sourcePath, destinationPath, overwrite);

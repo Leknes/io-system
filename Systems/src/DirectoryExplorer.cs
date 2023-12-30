@@ -5,6 +5,10 @@ namespace Senkel.IO.Systems;
 
 public class DirectoryExplorer : IDirectoryExplorer
 {
+    private DirectoryExplorer() { }
+      
+    public static DirectoryExplorer Instance { get; } = new DirectoryExplorer();
+   
     public SystemDirectory Locate(ISystemPath path)
     {
         return new SystemDirectory(path);

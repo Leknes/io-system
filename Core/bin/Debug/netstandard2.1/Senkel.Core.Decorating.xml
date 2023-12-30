@@ -4,6 +4,90 @@
         <name>Senkel.Core.Decorating</name>
     </assembly>
     <members>
+        <member name="T:Senkel.DuplexDecorable`1">
+            <summary>
+            Represents an object that can be decorated by another <see cref="T:Senkel.IDuplexDecorator`1"/> object.
+            </summary>
+        </member>
+        <member name="F:Senkel.DuplexDecorable`1.Decorator">
+            <summary>
+            The decorator that is used by the decorable instance.
+            </summary>
+        </member>
+        <member name="M:Senkel.DuplexDecorable`1.#ctor(Senkel.IDuplexDecorator{`0})">
+            <summary>
+            Creates a new instance of the <see cref="T:Senkel.DuplexDecorable`1"/> class that is decorated by the specified <see cref="T:Senkel.IDuplexDecorator`1"/> object.
+            </summary>
+            <param name="decorator">The decorator that this <see cref="T:Senkel.DuplexDecorable`1"/> instance is decorated by.</param>
+        </member>
+        <member name="M:Senkel.DuplexDecorable`1.#ctor">
+            <summary>
+            Creates a new instance of the <see cref="T:Senkel.DuplexDecorable`1"/> class that is not decorated by any <see cref="T:Senkel.IDuplexDecorator`1"/> object
+            by using the <see cref="P:Senkel.IdentityDecorator`1.Instance"/> value instead.
+            </summary>
+        </member>
+        <member name="M:Senkel.DuplexDecorable`1.Decorate(`0)">
+            <summary>
+            Decorates the object using the initially set <see cref="T:Senkel.IDuplexDecorator`1"/> object.
+            </summary>
+        </member>
+        <member name="T:Senkel.DuplexDecorator`1">
+            <summary>
+            Represents an implementation of the <see cref="T:Senkel.IDuplexDecorator`1"/> interface that decorates by executing a method which returns a modified object of the specified type based on the specified argument.
+            </summary>
+            <typeparam name="T">The type of the argument and the result used in the <see cref="M:Senkel.DuplexDecorator`1.Decorate(`0)"/> method.</typeparam>
+        </member>
+        <member name="M:Senkel.DuplexDecorator`1.#ctor(Senkel.IDuplexDecorator{`0})">
+            <summary>
+            Creates a new instance of the <see cref="T:Senkel.DuplexDecorator`1"/> class that is based on the specified base decorator.
+            </summary>
+            <param name="decorator">The decorator that this <see cref="T:Senkel.DuplexDecorator`1"/> instance is based on.</param>
+        </member>
+        <member name="M:Senkel.DuplexDecorator`1.#ctor">
+            <summary>
+            Creates a new instance of the <see cref="T:Senkel.DuplexDecorator`1"/> class that is based on no other decorator and therefore functions as a root for other decorators.
+            </summary>
+        </member>
+        <member name="M:Senkel.DuplexDecorator`1.Decorate(`0)">
+            <summary>
+            Decorates by returning a modified result based on the specified argument value.
+            </summary>
+            <param name="value">The value to base the modified result object on.</param>
+            <returns>The modified result based on the specified argument value.</returns>
+        </member>
+        <member name="T:Senkel.IDuplexDecorator`1">
+            <summary>
+            Represents a decorator that is capable of decorating by returning an object that is based on another argument value.
+            </summary>
+            <typeparam name="T">The type of the object that can be modified by the decorator.</typeparam>
+        </member>
+        <member name="M:Senkel.IDuplexDecorator`1.Decorate(`0)">
+            <summary>
+            Decorates by returning a modified result based on the specified argument value.
+            </summary>
+            <param name="value">The value to base the modified result object on.</param>
+            <returns>The modified result based on the specified argument value.</returns>
+        </member>
+        <member name="T:Senkel.IdentityDecorator">
+            <summary>
+            Represents a decorator that preserves the entity of the <see cref="T:Senkel.IDecorator"/> object that used this <see cref="P:Senkel.IdentityDecorator.Instance"/> value as a base and therefore does not apply any modifications.
+            </summary>
+        </member>
+        <member name="P:Senkel.IdentityDecorator.Instance">
+            <summary>
+            Returns a singleton instance of the <see cref="T:Senkel.IdentityDecorator"/> class.
+            </summary>
+        </member>
+        <member name="T:Senkel.IdentityDecorator`1">
+            <summary>
+            Represents a decorator that preserves the entity of the <see cref="T:Senkel.IDecorator`1"/> or <see cref="T:Senkel.IDuplexDecorator`1"/> object that used this <see cref="P:Senkel.IdentityDecorator`1.Instance"/> value as a base and therefore does not apply any modifications.
+            </summary>
+        </member>
+        <member name="P:Senkel.IdentityDecorator`1.Instance">
+            <summary>
+            Returns a singleton instance of the <see cref="T:Senkel.IdentityDecorator`1"/> class.
+            </summary>
+        </member>
         <member name="T:Senkel.Decorable">
             <summary>
             Represents an object that can be decorated by another <see cref="T:Senkel.IDecorator"/> object.
@@ -123,90 +207,6 @@
             Decorates by executing some behaviour based on the specified value.
             </summary>
             <param name="value">The value to use for decorating.</param>
-        </member>
-        <member name="T:Senkel.DuplexDecorable`1">
-            <summary>
-            Represents an object that can be decorated by another <see cref="T:Senkel.IDuplexDecorator`1"/> object.
-            </summary>
-        </member>
-        <member name="F:Senkel.DuplexDecorable`1.Decorator">
-            <summary>
-            The decorator that is used by the decorable instance.
-            </summary>
-        </member>
-        <member name="M:Senkel.DuplexDecorable`1.#ctor(Senkel.IDuplexDecorator{`0})">
-            <summary>
-            Creates a new instance of the <see cref="T:Senkel.DuplexDecorable`1"/> class that is decorated by the specified <see cref="T:Senkel.IDuplexDecorator`1"/> object.
-            </summary>
-            <param name="decorator">The decorator that this <see cref="T:Senkel.DuplexDecorable`1"/> instance is decorated by.</param>
-        </member>
-        <member name="M:Senkel.DuplexDecorable`1.#ctor">
-            <summary>
-            Creates a new instance of the <see cref="T:Senkel.DuplexDecorable`1"/> class that is not decorated by any <see cref="T:Senkel.IDuplexDecorator`1"/> object
-            by using the <see cref="P:Senkel.IdentityDecorator`1.Instance"/> value instead.
-            </summary>
-        </member>
-        <member name="M:Senkel.DuplexDecorable`1.Decorate(`0)">
-            <summary>
-            Decorates the object using the initially set <see cref="T:Senkel.IDuplexDecorator`1"/> object.
-            </summary>
-        </member>
-        <member name="T:Senkel.DuplexDecorator`1">
-            <summary>
-            Represents an implementation of the <see cref="T:Senkel.IDuplexDecorator`1"/> interface that decorates by executing a method which returns a modified object of the specified type based on the specified argument.
-            </summary>
-            <typeparam name="T">The type of the argument and the result used in the <see cref="M:Senkel.DuplexDecorator`1.Decorate(`0)"/> method.</typeparam>
-        </member>
-        <member name="M:Senkel.DuplexDecorator`1.#ctor(Senkel.IDuplexDecorator{`0})">
-            <summary>
-            Creates a new instance of the <see cref="T:Senkel.DuplexDecorator`1"/> class that is based on the specified base decorator.
-            </summary>
-            <param name="decorator">The decorator that this <see cref="T:Senkel.DuplexDecorator`1"/> instance is based on.</param>
-        </member>
-        <member name="M:Senkel.DuplexDecorator`1.#ctor">
-            <summary>
-            Creates a new instance of the <see cref="T:Senkel.DuplexDecorator`1"/> class that is based on no other decorator and therefore functions as a root for other decorators.
-            </summary>
-        </member>
-        <member name="M:Senkel.DuplexDecorator`1.Decorate(`0)">
-            <summary>
-            Decorates by returning a modified result based on the specified argument value.
-            </summary>
-            <param name="value">The value to base the modified result object on.</param>
-            <returns>The modified result based on the specified argument value.</returns>
-        </member>
-        <member name="T:Senkel.IDuplexDecorator`1">
-            <summary>
-            Represents a decorator that is capable of decorating by returning an object that is based on another argument value.
-            </summary>
-            <typeparam name="T">The type of the object that can be modified by the decorator.</typeparam>
-        </member>
-        <member name="M:Senkel.IDuplexDecorator`1.Decorate(`0)">
-            <summary>
-            Decorates by returning a modified result based on the specified argument value.
-            </summary>
-            <param name="value">The value to base the modified result object on.</param>
-            <returns>The modified result based on the specified argument value.</returns>
-        </member>
-        <member name="T:Senkel.IdentityDecorator">
-            <summary>
-            Represents a decorator that preserves the entity of the <see cref="T:Senkel.IDecorator"/> object that used this <see cref="P:Senkel.IdentityDecorator.Instance"/> value as a base and therefore does not apply any modifications.
-            </summary>
-        </member>
-        <member name="P:Senkel.IdentityDecorator.Instance">
-            <summary>
-            Returns a singleton instance of the <see cref="T:Senkel.IdentityDecorator"/> class.
-            </summary>
-        </member>
-        <member name="T:Senkel.IdentityDecorator`1">
-            <summary>
-            Represents a decorator that preserves the entity of the <see cref="T:Senkel.IDecorator`1"/> or <see cref="T:Senkel.IDuplexDecorator`1"/> object that used this <see cref="P:Senkel.IdentityDecorator`1.Instance"/> value as a base and therefore does not apply any modifications.
-            </summary>
-        </member>
-        <member name="P:Senkel.IdentityDecorator`1.Instance">
-            <summary>
-            Returns a singleton instance of the <see cref="T:Senkel.IdentityDecorator`1"/> class.
-            </summary>
         </member>
     </members>
 </doc>

@@ -1,47 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2KD0tiKcHWfLzSycG4pJ4fbeRqRhvRHhNhDQ3dzeiQh+fu94BHieipMxvGeyjumQO/J6lnoL0/kqUv2O+ppNMA==",
-  "success": false,
-  "projectFilePath": "C:\\Users\\Leonhard\\OneDrive\\Dokumente\\GitHub\\Senkel\\IO\\Serialization\\Senkel.IO.Conversions.csproj",
+  "dgSpecHash": "4mwjcgor6Es6vVRBvX1kG9vId5HNPYhVk/tqgTtGy70bzyVzi713qmEpk7saBA/K5EbHdkcgQ5SFuhZqQHhYgg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Leonhard\\Documents\\Programming\\C#\\Senkel\\IO\\Serialization\\Senkel.IO.Serialization.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Projektinformationen für \"C:\\Users\\Leonhard\\OneDrive\\Dokumente\\GitHub\\Senkel\\Core\\Decorating\\Senkel.Core.Decorating.csproj\" wurden nicht gefunden. Wenn Sie Visual Studio verwenden, wurde das Projekt möglicherweise entladen oder gehört nicht zur aktuellen Projektmappe. Führen Sie daher eine Wiederherstellung über die Befehlszeile aus. Andernfalls ist die Projektdatei möglicherweise ungültig, oder es fehlen Ziele, die für die Wiederherstellung erforderlich sind.",
-      "libraryId": "C:\\Users\\Leonhard\\OneDrive\\Dokumente\\GitHub\\Senkel\\Core\\Decorating\\Senkel.Core.Decorating.csproj",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.1",
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Projektinformationen für \"C:\\Users\\Leonhard\\OneDrive\\Dokumente\\GitHub\\Senkel\\Core\\Converting\\Senkel.Core.Converting.csproj\" wurden nicht gefunden. Wenn Sie Visual Studio verwenden, wurde das Projekt möglicherweise entladen oder gehört nicht zur aktuellen Projektmappe. Führen Sie daher eine Wiederherstellung über die Befehlszeile aus. Andernfalls ist die Projektdatei möglicherweise ungültig, oder es fehlen Ziele, die für die Wiederherstellung erforderlich sind.",
-      "libraryId": "C:\\Users\\Leonhard\\OneDrive\\Dokumente\\GitHub\\Senkel\\Core\\Converting\\Senkel.Core.Converting.csproj",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.1",
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Projektinformationen für \"C:\\Users\\Leonhard\\OneDrive\\Dokumente\\GitHub\\Senkel\\Compatibility\\RequiredModifier\\Senkel.Compatibility.RequiredModifier.csproj\" wurden nicht gefunden. Wenn Sie Visual Studio verwenden, wurde das Projekt möglicherweise entladen oder gehört nicht zur aktuellen Projektmappe. Führen Sie daher eine Wiederherstellung über die Befehlszeile aus. Andernfalls ist die Projektdatei möglicherweise ungültig, oder es fehlen Ziele, die für die Wiederherstellung erforderlich sind.",
-      "libraryId": "C:\\Users\\Leonhard\\OneDrive\\Dokumente\\GitHub\\Senkel\\Compatibility\\RequiredModifier\\Senkel.Compatibility.RequiredModifier.csproj",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.1"
-      ]
-    },
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Projektinformationen für \"C:\\Users\\Leonhard\\OneDrive\\Dokumente\\GitHub\\Senkel\\Compatibility\\NullableAttributes\\Senkel.Compatibility.NullableAttributes.csproj\" wurden nicht gefunden. Wenn Sie Visual Studio verwenden, wurde das Projekt möglicherweise entladen oder gehört nicht zur aktuellen Projektmappe. Führen Sie daher eine Wiederherstellung über die Befehlszeile aus. Andernfalls ist die Projektdatei möglicherweise ungültig, oder es fehlen Ziele, die für die Wiederherstellung erforderlich sind.",
-      "libraryId": "C:\\Users\\Leonhard\\OneDrive\\Dokumente\\GitHub\\Senkel\\Compatibility\\NullableAttributes\\Senkel.Compatibility.NullableAttributes.csproj",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.1"
-      ]
-    }
-  ]
+  "logs": []
 }

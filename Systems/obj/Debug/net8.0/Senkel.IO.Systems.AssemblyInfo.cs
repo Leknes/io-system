@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Leonhard Senkel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d480ac97d38986c892d4b0084786f95669ea2d29")]
 [assembly: System.Reflection.AssemblyProductAttribute("Senkel.IO.Systems")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Senkel.IO.Systems")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

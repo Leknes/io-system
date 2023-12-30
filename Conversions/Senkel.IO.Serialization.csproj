@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>Senkel.IO.Conversions</PackageId>
+    <PackageDescription>A basic library featuring conversion classes for file systems.</PackageDescription>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<ProjectReference Include="..\..\Serialization\Core\Senkel.Serialization.Core.csproj" />
+	<ProjectReference Include="..\Core\Senkel.IO.Core.csproj" />
+	<ProjectReference Include="..\..\Core\Decorating\Senkel.Core.Decorating.csproj" />
+	<ProjectReference Include="..\Paths\Senkel.IO.Paths.csproj" />
+  </ItemGroup>
+
+</Project>

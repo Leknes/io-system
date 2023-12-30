@@ -12,3 +12,17 @@ D:\Programming\C#\Senkel\IO\Extensions\obj\Debug\net8.0\refint\Senkel.IO.Extensi
 D:\Programming\C#\Senkel\IO\Extensions\obj\Debug\net8.0\Senkel.IO.Extensions.xml
 D:\Programming\C#\Senkel\IO\Extensions\obj\Debug\net8.0\Senkel.IO.Extensions.pdb
 D:\Programming\C#\Senkel\IO\Extensions\obj\Debug\net8.0\ref\Senkel.IO.Extensions.dll
+C:\Users\Leonhard\Documents\Programming\C#\Senkel\IO\Extensions\bin\Debug\net8.0\Senkel.IO.Extensions.deps.json
+C:\Users\Leonhard\Documents\Programming\C#\Senkel\IO\Extensions\bin\Debug\net8.0\Senkel.IO.Extensions.dll
+C:\Users\Leonhard\Documents\Programming\C#\Senkel\IO\Extensions\bin\Debug\net8.0\Senkel.IO.Extensions.pdb
+C:\Users\Leonhard\Documents\Programming\C#\Senkel\IO\Extensions\bin\Debug\net8.0\Senkel.IO.Extensions.xml
+C:\Users\Leonhard\Documents\Programming\C#\Senkel\IO\Extensions\obj\Debug\net8.0\Senkel.IO.Extensions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leonhard\Documents\Programming\C#\Senkel\IO\Extensions\obj\Debug\net8.0\Senkel.IO.Extensions.AssemblyInfoInputs.cache
+C:\Users\Leonhard\Documents\Programming\C#\Senkel\IO\Extensions\obj\Debug\net8.0\Senkel.IO.Extensions.AssemblyInfo.cs
+C:\Users\Leonhard\Documents\Programming\C#\Senkel\IO\Extensions\obj\Debug\net8.0\Senkel.IO.Extensions.csproj.CoreCompileInputs.cache
+C:\Users\Leonhard\Documents\Programming\C#\Senkel\IO\Extensions\obj\Debug\net8.0\Senkel.IO.Extensions.sourcelink.json
+C:\Users\Leonhard\Documents\Programming\C#\Senkel\IO\Extensions\obj\Debug\net8.0\Senkel.IO.Extensions.dll
+C:\Users\Leonhard\Documents\Programming\C#\Senkel\IO\Extensions\obj\Debug\net8.0\refint\Senkel.IO.Extensions.dll
+C:\Users\Leonhard\Documents\Programming\C#\Senkel\IO\Extensions\obj\Debug\net8.0\Senkel.IO.Extensions.xml
+C:\Users\Leonhard\Documents\Programming\C#\Senkel\IO\Extensions\obj\Debug\net8.0\Senkel.IO.Extensions.pdb
+C:\Users\Leonhard\Documents\Programming\C#\Senkel\IO\Extensions\obj\Debug\net8.0\ref\Senkel.IO.Extensions.dll
