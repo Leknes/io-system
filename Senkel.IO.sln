@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Senkel.IO.Core", "Core\Senk
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Senkel.IO.Systems", "Systems\Senkel.IO.Systems.csproj", "{CAEA2390-00ED-467F-8353-5EB92BDAA54F}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Senkel.IO.Conversions", "Serialization\Senkel.IO.Conversions.csproj", "{756F764E-0F77-4E75-85A8-04F152872BF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{CAEA2390-00ED-467F-8353-5EB92BDAA54F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAEA2390-00ED-467F-8353-5EB92BDAA54F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAEA2390-00ED-467F-8353-5EB92BDAA54F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{756F764E-0F77-4E75-85A8-04F152872BF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{756F764E-0F77-4E75-85A8-04F152872BF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{756F764E-0F77-4E75-85A8-04F152872BF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{756F764E-0F77-4E75-85A8-04F152872BF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
