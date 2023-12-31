@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4mwjcgor6Es6vVRBvX1kG9vId5HNPYhVk/tqgTtGy70bzyVzi713qmEpk7saBA/K5EbHdkcgQ5SFuhZqQHhYgg==",
+  "dgSpecHash": "HbCsvapgqf/6DaN5PdNwXcJrEzSIT/uDFEjWIlid4d0q6Y4pzDI10BXEA3R3CPj5/lPKnG1ztJnUfZ8dayTe5g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Leonhard\\Documents\\Programming\\C#\\Senkel\\IO\\Serialization\\Senkel.IO.Serialization.csproj",
+  "projectFilePath": "C:\\Users\\Leonhard\\Documents\\Programming\\C#\\Senkel\\IO\\Conversions\\Senkel.IO.Serialization.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

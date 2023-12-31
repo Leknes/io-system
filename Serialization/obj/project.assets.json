@@ -35,14 +35,18 @@
           "bin/placeholder/Senkel.IO.dll": {}
         }
       },
-      "Senkel.IO.Extensions/1.0.0": {
+      "Senkel.IO.Paths/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Senkel.IO": "1.0.0",
+          "Senkel.Model.Decorating": "1.0.0"
+        },
         "compile": {
-          "bin/placeholder/Senkel.IO.Extensions.dll": {}
+          "bin/placeholder/Senkel.IO.Paths.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Senkel.IO.Extensions.dll": {}
+          "bin/placeholder/Senkel.IO.Paths.dll": {}
         }
       },
       "Senkel.Model.Decorating/1.0.0": {
@@ -80,14 +84,18 @@
           "bin/placeholder/Senkel.IO.dll": {}
         }
       },
-      "Senkel.IO.Extensions/1.0.0": {
+      "Senkel.IO.Paths/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Senkel.IO": "1.0.0",
+          "Senkel.Model.Decorating": "1.0.0"
+        },
         "compile": {
-          "bin/placeholder/Senkel.IO.Extensions.dll": {}
+          "bin/placeholder/Senkel.IO.Paths.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Senkel.IO.Extensions.dll": {}
+          "bin/placeholder/Senkel.IO.Paths.dll": {}
         }
       },
       "Senkel.Model.Decorating/1.0.0": {
@@ -128,10 +136,10 @@
       "path": "../Core/Senkel.IO.Core.csproj",
       "msbuildProject": "../Core/Senkel.IO.Core.csproj"
     },
-    "Senkel.IO.Extensions/1.0.0": {
+    "Senkel.IO.Paths/1.0.0": {
       "type": "project",
-      "path": "../Extensions/Senkel.IO.Extensions.csproj",
-      "msbuildProject": "../Extensions/Senkel.IO.Extensions.csproj"
+      "path": "../Paths/Senkel.IO.Paths.csproj",
+      "msbuildProject": "../Paths/Senkel.IO.Paths.csproj"
     },
     "Senkel.Model.Decorating/1.0.0": {
       "type": "project",
@@ -149,12 +157,14 @@
       "Senkel.Compatibility.NullableAttribute >= 1.0.0",
       "Senkel.Compatibility.RequiredModifier >= 1.0.0",
       "Senkel.IO >= 1.0.0",
-      "Senkel.IO.Extensions >= 1.0.0",
+      "Senkel.IO.Paths >= 1.0.0",
+      "Senkel.Model.Decorating >= 1.0.0",
       "Senkel.Serialization >= 1.0.0"
     ],
     "net8.0": [
       "Senkel.IO >= 1.0.0",
-      "Senkel.IO.Extensions >= 1.0.0",
+      "Senkel.IO.Paths >= 1.0.0",
+      "Senkel.Model.Decorating >= 1.0.0",
       "Senkel.Serialization >= 1.0.0"
     ]
   },
@@ -165,11 +175,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Leonhard\\Documents\\Programming\\C#\\Senkel\\IO\\Serialization\\Senkel.IO.Serialization.csproj",
-      "projectName": "Senkel.IO.Paths.Serialization",
-      "projectPath": "C:\\Users\\Leonhard\\Documents\\Programming\\C#\\Senkel\\IO\\Serialization\\Senkel.IO.Serialization.csproj",
+      "projectUniqueName": "C:\\Users\\Leonhard\\Documents\\Programming\\C#\\Senkel\\IO\\Conversions\\Senkel.IO.Serialization.csproj",
+      "projectName": "Senkel.IO.Conversions",
+      "projectPath": "C:\\Users\\Leonhard\\Documents\\Programming\\C#\\Senkel\\IO\\Conversions\\Senkel.IO.Serialization.csproj",
       "packagesPath": "C:\\Users\\Leonhard\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Leonhard\\Documents\\Programming\\C#\\Senkel\\IO\\Serialization\\obj\\",
+      "outputPath": "C:\\Users\\Leonhard\\Documents\\Programming\\C#\\Senkel\\IO\\Conversions\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
@@ -194,11 +204,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\Users\\Leonhard\\Documents\\Programming\\C#\\Senkel\\Core\\Decorating\\Senkel.Core.Decorating.csproj": {
+              "projectPath": "C:\\Users\\Leonhard\\Documents\\Programming\\C#\\Senkel\\Core\\Decorating\\Senkel.Core.Decorating.csproj"
+            },
             "C:\\Users\\Leonhard\\Documents\\Programming\\C#\\Senkel\\IO\\Core\\Senkel.IO.Core.csproj": {
               "projectPath": "C:\\Users\\Leonhard\\Documents\\Programming\\C#\\Senkel\\IO\\Core\\Senkel.IO.Core.csproj"
             },
-            "C:\\Users\\Leonhard\\Documents\\Programming\\C#\\Senkel\\IO\\Extensions\\Senkel.IO.Extensions.csproj": {
-              "projectPath": "C:\\Users\\Leonhard\\Documents\\Programming\\C#\\Senkel\\IO\\Extensions\\Senkel.IO.Extensions.csproj"
+            "C:\\Users\\Leonhard\\Documents\\Programming\\C#\\Senkel\\IO\\Paths\\Senkel.IO.Paths.csproj": {
+              "projectPath": "C:\\Users\\Leonhard\\Documents\\Programming\\C#\\Senkel\\IO\\Paths\\Senkel.IO.Paths.csproj"
             },
             "C:\\Users\\Leonhard\\Documents\\Programming\\C#\\Senkel\\Serialization\\Core\\Senkel.Serialization.Core.csproj": {
               "projectPath": "C:\\Users\\Leonhard\\Documents\\Programming\\C#\\Senkel\\Serialization\\Core\\Senkel.Serialization.Core.csproj"
@@ -216,11 +229,14 @@
               "projectPath": "C:\\Users\\Leonhard\\Documents\\Programming\\C#\\Senkel\\Compatibility\\RequiredModifier\\Senkel.Compatibility.RequiredModifier.csproj",
               "privateAssets": "all"
             },
+            "C:\\Users\\Leonhard\\Documents\\Programming\\C#\\Senkel\\Core\\Decorating\\Senkel.Core.Decorating.csproj": {
+              "projectPath": "C:\\Users\\Leonhard\\Documents\\Programming\\C#\\Senkel\\Core\\Decorating\\Senkel.Core.Decorating.csproj"
+            },
             "C:\\Users\\Leonhard\\Documents\\Programming\\C#\\Senkel\\IO\\Core\\Senkel.IO.Core.csproj": {
               "projectPath": "C:\\Users\\Leonhard\\Documents\\Programming\\C#\\Senkel\\IO\\Core\\Senkel.IO.Core.csproj"
             },
-            "C:\\Users\\Leonhard\\Documents\\Programming\\C#\\Senkel\\IO\\Extensions\\Senkel.IO.Extensions.csproj": {
-              "projectPath": "C:\\Users\\Leonhard\\Documents\\Programming\\C#\\Senkel\\IO\\Extensions\\Senkel.IO.Extensions.csproj"
+            "C:\\Users\\Leonhard\\Documents\\Programming\\C#\\Senkel\\IO\\Paths\\Senkel.IO.Paths.csproj": {
+              "projectPath": "C:\\Users\\Leonhard\\Documents\\Programming\\C#\\Senkel\\IO\\Paths\\Senkel.IO.Paths.csproj"
             },
             "C:\\Users\\Leonhard\\Documents\\Programming\\C#\\Senkel\\Serialization\\Core\\Senkel.Serialization.Core.csproj": {
               "projectPath": "C:\\Users\\Leonhard\\Documents\\Programming\\C#\\Senkel\\Serialization\\Core\\Senkel.Serialization.Core.csproj"
